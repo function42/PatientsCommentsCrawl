@@ -12,3 +12,9 @@ class PatientscommentscrawlItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
+
+class CommentItem(scrapy.Item):
+    doctor_id = scrapy.Field()
+    cure = scrapy.Field()
+    attitude = scrapy.Field()
+    content = scrapy.Field()
